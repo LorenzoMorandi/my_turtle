@@ -1,0 +1,6 @@
+<launch>
+<node name="move_robot_1" pkg="my_turtle" type="my_turtle_node" args="turtle1" output="screen"/>
+<node name="move_robot_2" pkg="my_turtle" type="my_turtle_node" args="turtle2" output="screen"/>
+<node name="move_robot_3" pkg="my_turtle" type="my_turtle_node" args="turtle3" output="screen"/>
+
+</launch>
